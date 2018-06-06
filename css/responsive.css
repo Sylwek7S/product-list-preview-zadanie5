@@ -1,0 +1,26 @@
+#product-list
+{
+    width: 100%;
+}
+
+.product1,
+.product2,
+.product3,
+.product4
+{
+    width: 15%;
+}
+@media all and (max-width: 480px)
+{
+    div[class^="product"]
+    {
+        width: 100%;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 992px)
+{
+    div[class^="product"]
+    {
+        width: 44%;
+    }
+}
